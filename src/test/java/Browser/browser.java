@@ -22,7 +22,7 @@ public class browser {
 	{
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-		driver.get("https://app.redtie.co/SignIn");
+		driver.get("https://stagingrv4.redtie.co/SignIn");
 		driver.manage().window().maximize();
 		driver.getTitle();
 		
